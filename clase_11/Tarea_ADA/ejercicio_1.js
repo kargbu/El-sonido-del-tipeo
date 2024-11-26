@@ -6,9 +6,9 @@ const prompt = require('prompt-sync')();
 let num_usuario = parseFloat(prompt('Ingresa un número: '));
 
 if (num_usuario < 0) {
-    console.log('El número' + num_usuario + 'es negativo')
+    console.log('El número ' + num_usuario + ' es negativo')
 }else if (0 < num_usuario) {
-    console.log('El número' + num_usuario + 'es positivo')
+    console.log('El número ' + num_usuario + ' es positivo')
 } else {
     console.log('El número es cero')
 }
