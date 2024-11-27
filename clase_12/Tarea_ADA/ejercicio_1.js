@@ -5,9 +5,9 @@ const prompt = require('prompt-sync')();
 
 let suma = 0;
 let num_usuario;
-
+console.log('Ingrasa un número natural hasta que ingresas uno negativo; obtendras la suma de los naturales')
 do {
-  num_usuario = parseFloat(prompt('Ingresa un número: '));
+  num_usuario = parseInt(prompt('Ingresa un número: '));
 
   if (isNaN(num_usuario)) {
     console.log('Por favor, ingresa un número válido.');
