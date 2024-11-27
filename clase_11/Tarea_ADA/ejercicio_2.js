@@ -18,6 +18,8 @@ switch (color) {
     case color == 'amarillo':
         console.log('Precaución, prepárate para avanzar');
         break;
-    default:
+    case color = 'rojo':
         console.log('Alto, no puedes avanzar');
+    default:
+        console.log('Color no reconocido, ingresa rojo, amarilo o verde.');
 }
