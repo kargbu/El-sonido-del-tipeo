@@ -11,25 +11,27 @@ let num1_usuario = parseFloat(prompt('Ingresa un número: '));
 let num2_usuario = parseFloat(prompt('Ingresa otro número: '));
 
 switch (operacion) {
-    case operacion = 'suma':
+    case 'suma':
         let suma = num1_usuario + num2_usuario;
-        console.log("La " + operacion " de " +  num1_usuarios " y " num2_usuario + " es " + suma + ".");
+        console.log(`La suma de ${num1_usuario} mas ${num2_usuario} es ${suma}.`);
         break;
-    case operacion = 'resta':
+    case 'resta':
         let resta = num1_usuario - num2_usuario;
-        console.log("La resta de ${num1_usuario} menos ${num2_usuario} es ${resta}.")
+        console.log(`La resta de ${num1_usuario} menos ${num2_usuario} es ${resta}.`);
         break;
-    case operacion = 'multiplicación':
+    case 'multiplicación':
         let mult = num1_usuario * num2_usuario;
-        console.log('"La multiplicación de ${num1_usuario} por ${num2_usuario} es ${mult}."')
+        console.log(`La multiplicación de ${num1_usuario} por ${num2_usuario} es ${mult}.`);
         break;
-    case operacion = 'división':
-        let div = num1_usuario / num2_usuario
-        console.log("La división de ${num1_usuario} entre ${num2_usuario} es ${div}.");
+    case 'división'
+        if (num2_usuario !== 0) {
+        let div = num1_usuario / num2_usuario;
+        console.log(`La división de ${num1_usuario} entre ${num2_usuario} es ${div}.`);
+        } else {
+            console.log('Error: no se puede dividir entre cero.');
+        }
         break;
-    case operacion:
-        console.log('Revisa la ortografía de tu entrada.');
-        break;       
+    default:
+        console.log('Entrada inválida. Ingresa suma, resta, multiplicación o división.');
+        break;
 }
-
-
