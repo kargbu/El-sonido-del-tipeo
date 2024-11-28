@@ -2,24 +2,21 @@
 usando arays y mostrarlas por pantala. */
 const promopt = require('prompt-sync')();
 
-let matriz_estudiante = [nombre,not_1,not_2,not_3,not_4,not_5];
+// Definiendo las dimensiones de la matriz
+let filas    = 2;
+let columnas = 5;
 
-let notas_estudiante = [];
-
-let nombre_estudiante = promopt('Ingresa el nombre del estudiante'); // Seraán los encabezados de las filas
-let estudiante_notas = parseFloat(promopt('Ingresa la nota del estudiante')); // Las notas de cada estudiante las filas
-
-// Matriz[fila][columna]
-// Matriz[i][j]
-
-
-for(i = 0; i < matriz_estudiante[0].length; i++) {
-
-    for(j = 0; matriz_estudiante.length; j++) {
-
-    }
+// Definir la matriz de las dimensiones anteriores
+let matriz_estudiantes = new Array(filas);
+for(i = 0; i < filas; i++) {
+    matriz_estudiantes[i] = new Array(columnas);
 }
 
+// Instrucciones de llenado.
+console.log('Ingresa primero el nombre y las notas del estudiante: ');
+
+// Construir la matriz_estudiantes
+for (i = 0; )
 
 
 

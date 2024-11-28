@@ -1,5 +1,4 @@
 // Arrays son matrices. La maestra dice que es un conjunto de elementos o datos de distinto nativos //
-const prompt = require('prompt-sync')()
 
 let colores = ['rojo', 'verde', 'azul', 'violeta'];
 let numeros = [23, 56, 78, 90];
