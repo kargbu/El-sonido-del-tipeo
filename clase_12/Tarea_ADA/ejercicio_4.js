@@ -13,10 +13,19 @@ for(i = 0; i < filas; i++) {
 }
 
 // Instrucciones de llenado.
-console.log('Ingresa primero el nombre y las notas del estudiante: ');
+console.log('Ingresa primero el nombre y las notas del estudiante.');
 
 // Construir la matriz_estudiantes
-for (i = 0; )
+do {
+    promopt('Ingrese el nombre del estudiante: ');
+
+}while (
+    for (i =0; i < filas; i++) {
+        matriz_estudiantes[]
+}
+)
+
+
 
 
 
