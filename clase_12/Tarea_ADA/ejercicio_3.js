@@ -6,9 +6,9 @@ let x = parseInt(prompt('Ingresa un número natural: '));
 
 let contador_impares = 0;
 
-if (x % 2 == 1) {
-    for(x; x > 0; x -2)
-    contador_impares ++;
-} else if {
-    
+for(let i = 0; i <= x; i++) {
+    if (i % 2 !== 0) {
+    contador_impares++;
+    }
 }
+console.log(`La cantidad de impares entre el 0 y ${x} es ${contador_impares}.`);

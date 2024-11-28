@@ -1,0 +1,2 @@
+/*  Crear un programa que permita registrar las notas de varios estudiantes
+usando arays y mostrarlas por pantala. */
