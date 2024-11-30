@@ -22,6 +22,6 @@ for(i = 0; i < filas; i++) {
     }
 }
 
-console.log('La matriz con las entradas es:');
+console.log('La matriz con las entradas es: ');
 console.log(matriz_5x5);
 console.log(`La suma de las entradas de la matriz es ${suma}.`);
